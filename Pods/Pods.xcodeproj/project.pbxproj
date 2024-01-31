@@ -71,8 +71,8 @@
 		82302BC9715D2A058646071FCDD36350 /* ResourceBundle-PMAlertController-PMAlertController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PMAlertController-PMAlertController-Info.plist"; sourceTree = "<group>"; };
 		89AAB7ECB66033E87B4D970A1B3DF724 /* Pods-Alert_Animations.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Alert_Animations.modulemap"; sourceTree = "<group>"; };
 		8D9529EA4BA37D5EAE3ED3504659B2F2 /* SCLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLExtensions.swift; path = SCLAlertView/SCLExtensions.swift; sourceTree = "<group>"; };
-		962A4B1F73A781D3BB906D0525BD2A8A /* SCLAlertView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SCLAlertView; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		962A4B1F73A781D3BB906D0525BD2A8A /* SCLAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A45125B818E1DF63FE877BA8CFB4ED7F /* SCLAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SCLAlertView-Info.plist"; sourceTree = "<group>"; };
 		A911E6CE0CAAE317E66E60D8BD8945AD /* SCLAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-umbrella.h"; sourceTree = "<group>"; };
 		B66B3DC43F177166CA795CDBA03F7DF0 /* Pods-Alert_Animations-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Alert_Animations-dummy.m"; sourceTree = "<group>"; };
@@ -167,7 +167,6 @@
 				5A85AD7389AE0B7629876F8820D39B8D /* Resources */,
 				F039B2AEA2F6C8A2FA25959691F40E8E /* Support Files */,
 			);
-			name = PMAlertController;
 			path = PMAlertController;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,7 @@
 				C896D3D249F15B7280D3A50AA603D70F /* PMAlertController */,
 				ECE1D4E8E06362E959CA9683CBD7C694 /* PMAlertController-PMAlertController */,
 				C7F07BF3CABDBF6CBF41AC4AB7BCA14B /* Pods-Alert_Animations */,
-				962A4B1F73A781D3BB906D0525BD2A8A /* SCLAlertView */,
+				962A4B1F73A781D3BB906D0525BD2A8A /* SCLAlertView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -220,7 +219,6 @@
 				8D9529EA4BA37D5EAE3ED3504659B2F2 /* SCLExtensions.swift */,
 				891937131B32A191BE433FF7B898CD4D /* Support Files */,
 			);
-			name = SCLAlertView;
 			path = SCLAlertView;
 			sourceTree = "<group>";
 		};
@@ -344,7 +342,7 @@
 			);
 			name = SCLAlertView;
 			productName = SCLAlertView;
-			productReference = 962A4B1F73A781D3BB906D0525BD2A8A /* SCLAlertView */;
+			productReference = 962A4B1F73A781D3BB906D0525BD2A8A /* SCLAlertView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E587873091CEC554E4965B6FC547D2FD /* PMAlertController-PMAlertController */ = {
@@ -695,7 +693,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SCLAlertView/SCLAlertView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -764,7 +762,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SCLAlertView/SCLAlertView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
