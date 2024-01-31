@@ -2,8 +2,7 @@
 //  ViewController.swift
 //  PMAlertController
 //
-//  Created by Paolo Musolino on 07/05/16.
-//  Copyright © 2018 Codeido. All rights reserved.
+//  Created by Awadhesh Pratap Singh on 31/01/2023.
 //
 
 import UIKit

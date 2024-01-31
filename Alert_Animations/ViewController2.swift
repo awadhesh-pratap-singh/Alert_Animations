@@ -2,8 +2,7 @@
 //  ViewController.swift
 //  SCLAlertViewExample
 //
-//  Created by Viktor Radchenko on 6/6/14.
-//  Copyright (c) 2014 Viktor Radchenko. All rights reserved.
+//  Created by Awadhesh Pratap Singh on 31/01/2023.
 //
 
 import UIKit
