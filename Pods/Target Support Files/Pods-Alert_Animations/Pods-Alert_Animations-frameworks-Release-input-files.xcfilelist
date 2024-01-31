@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-Alert_Animations/Pods-Alert_Animations-frameworks.sh
+${BUILT_PRODUCTS_DIR}/PMAlertController/PMAlertController.framework
+${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework

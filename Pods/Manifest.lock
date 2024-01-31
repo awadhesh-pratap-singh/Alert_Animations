@@ -1,0 +1,20 @@
+PODS:
+  - PMAlertController (4.0.1)
+  - SCLAlertView (0.8)
+
+DEPENDENCIES:
+  - PMAlertController
+  - SCLAlertView
+
+SPEC REPOS:
+  trunk:
+    - PMAlertController
+    - SCLAlertView
+
+SPEC CHECKSUMS:
+  PMAlertController: ab5fcf4d085b7878c9451466d701449c4bf6efb8
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+
+PODFILE CHECKSUM: dbb6411bdcaf39f25ae35992bbc7b6d6d425baf1
+
+COCOAPODS: 1.12.1
